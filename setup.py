@@ -29,7 +29,7 @@ def get_requirements()->List[str]:
         print("requirement.txt file not found")
 
     return requirement_lst
-
+##metadata about the package
 setup(
     name="NetworkSecurity",
     version="0.0.1",

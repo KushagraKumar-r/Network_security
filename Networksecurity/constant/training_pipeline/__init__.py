@@ -1,0 +1,26 @@
+import os
+import sys
+import numpy as np
+import pandas as pd
+
+'''
+Defining common constant variable for training pipeline
+'''
+
+TARGET_COLUMN="Result"
+PIPELINE_NAME:str="Networksecurity"
+ARTIFACT_DIR:str="Artifacts"
+FILE_NAME: str="phisingData.csv"
+
+TRAIN_FILE_NAME: str="train.csv"
+TEST_FILE_NAME:str="test.csv"
+
+'''
+Data Ingestion related constant startwith Data Ingestion var name
+'''
+DATA_INGESTION_COLLECTION_NAME: str="NetworkData"
+DATA_INGESTION_DATABASE_NAME: str="KUSHAGRA"
+DATA_INGESTION_DTR_NAME: str="data_ingestion"
+DATA_INGESTION_FEATURE_STORE_DTR: str="feature_store"
+DATA_INGESTION_INGESTED_DTR: str="ingested"
+DATA_INGESTION_TRAIN_TEST_SPLIT_RATION: float=0.2
